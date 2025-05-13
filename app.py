@@ -29,7 +29,7 @@ if "quote" not in st.session_state:
 st.markdown(f'<div class="quote-box">"{st.session_state.quote}"</div>', unsafe_allow_html=True)
 
 # Countdown timer with animation
-countdown = 15  # seconds
+countdown = 10  # seconds
 progress_bar = st.progress(0)
 status = st.empty()
 
